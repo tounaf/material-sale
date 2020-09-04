@@ -17,6 +17,9 @@ const routes: Routes =[
       path: '',
       loadChildren: './layouts/admin-layout/admin-layout.module#AdminLayoutModule'
     }]
+  }, {
+    path: 'car',
+    loadChildren: '../../cars/car.module.ts#CarModule'
   }
 ];
 
