@@ -30,9 +30,9 @@
                                             {{car.numero}}
                                         </td>
                                         <td>
-                                            <a href="#"><i class="material-icons">delete</i></a>
-                                            <a href="#"><i class="material-icons">edit</i></a>
-                                            <a href="#"><i class="material-icons">visibility</i></a>
+                                            <a [routerLink]="['delete, 1']"><i class="material-icons">delete</i></a>
+                                            <a [routerLink]="['edit', car.id]"><i class="material-icons">edit</i></a>
+                                            <a [routerLink]="['view', car.id]"><i class="material-icons">visibility</i></a>
                                         </td>
                                     </tr>
                                 </tbody>

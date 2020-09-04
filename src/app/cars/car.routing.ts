@@ -10,10 +10,10 @@ export const CarRoutes: Routes =[
     component: CarComponent,
     pathMatch: 'full',
   }, {
-    path: '/edit/:id',
+    path: 'edit/:id',
     component: CarEditComponent,
   }, {
-    path: '/view/:id',
+    path: 'view/:id',
     component: CarDetailComponent,
   }
 ];

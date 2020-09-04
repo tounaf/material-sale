@@ -12,7 +12,6 @@ export class CarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    alert('hello');
     this.getListCar();
   }
 

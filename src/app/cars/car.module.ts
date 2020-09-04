@@ -5,6 +5,7 @@ import { CarComponent } from './car/car.component';
 import { CarEditComponent } from './car-edit/car-edit.component';
 import { CarDetailComponent } from './car-detail/car-detail.component';
 import { CarRoutes } from './car.routing';
+import { BrowserModule } from '@angular/platform-browser';
 
 
 
